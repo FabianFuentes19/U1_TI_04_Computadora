@@ -10,10 +10,6 @@ public class Computadora {
         return marca;
     }
 
-    public void setMarca(String marca) {
-        this.marca = marca;
-    }
-
     public String getModelo() {
         return modelo;
     }
@@ -21,4 +17,19 @@ public class Computadora {
     public void setModelo(String modelo) {
         this.modelo = modelo;
     }
+
+    public boolean isEncendida() {
+        return encendida;
+    }
+
+    public void encender() {
+        if (!encendida) {
+            encendida = true;
+            System.out.println("La computadora está encendida.");
+        } else {
+            System.out.println("La computadora ya está encendida.");
+        }
+    }
+
+
 }
