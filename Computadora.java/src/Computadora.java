@@ -25,10 +25,19 @@ public class Computadora {
     public void encender() {
         if (!encendida) {
             encendida = true;
-            System.out.println("La computadora está encendida.");
+            System.out.println("Encenediendo....");
         } else {
             System.out.println("La computadora ya está encendida.");
         }
+    }
+
+    public void apagar(){
+        if(encendida){
+            encendida = false;
+            System.out.println("Apagando....");
+        } else {    
+        
+            System.out.println("la computadora ya esta apagada");}
     }
 
 
