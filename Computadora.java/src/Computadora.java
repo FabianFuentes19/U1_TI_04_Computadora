@@ -1,6 +1,6 @@
 public class Computadora {
     
-    private String marca;
+    private String marca = "HP";
     private String modelo;
     private boolean encendida;
 
